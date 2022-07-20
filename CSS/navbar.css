@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+header  {
+    top: 0;
+    right: 0;
+    position: relative;
+    height: 70px;
+    width: 100%;
+    padding: auto;
+    /*
+    background-image: url('Assets/Photos/morebicykel.jpg');
+    */
+    background-color: black;
+    z-index: 999;
+}
+.language{
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+
+.language a{
+    color: white;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 2px 4px;
+  }
+
+.language a:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;     
+    border-radius: 2px;
+    
+
+  }
+
+.HeaderContainer{
+    color: white;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;    
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+}
+
+br{
+    margin: 3%;
+}
+
+@media (max-width: 858px){
+    .HeaderContainer{
+        color: white;
+        font-size: 35px;
+        font-family: 'Amatic SC', cursive;    
+        font-weight: 800;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    br{
+        margin: 10%;
+    }
+}
