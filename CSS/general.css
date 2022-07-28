@@ -127,6 +127,10 @@ a{
     padding: 2%;
 }
 
+.fotkyVidea img:hover{
+    opacity: 0.95;
+}
+
 /*General Blog*/
 .navigation .navigationLeft a img{
     position: absolute;
@@ -265,6 +269,7 @@ a{
         padding: 6%;
 
     }
+
 
     .anchor a img{
         width: 55px;
